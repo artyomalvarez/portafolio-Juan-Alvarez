@@ -63,5 +63,72 @@ color: #fff;
     margin-right: 10px
 }
 
+.pets-btn{
+
+background-color: #B292FF;
+color: white;
+width: 50px;
+padding: 12px 25px;
+border-radius: 20px;
+text-decoration: none;
+margin-right: 10px;
+}
 
 
+
+
+
+
+
+
+.hero_container {
+display: flex;
+align-items: center;
+gap: 50px; /* Espacio entre texto e imagen */
+max-width: 1100px;
+}
+
+/* Estilo de la imagen con bordes redondeados */
+.hero_img img {
+width: 400px;
+height: auto;
+  border-radius: 30px; /* Esto le da el toque moderno del video */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* El "Hola, soy" azulito */
+.badge {
+color: #3b82f6;
+font-weight: bold;
+font-size: 0.9rem;
+}
+
+h1 {
+font-size: 3.5rem;
+margin: 10px 0;
+color: #1f2937;
+}
+
+/* Botones */
+
+.hero_buttons {
+display: flex;
+gap: 15px;
+}
+.btn_primary {
+background-color: #603085; 
+color: white;
+padding: 12px 25px;
+border-radius: 20px;
+text-decoration: none;
+margin-right: 10px;
+
+}
+
+.btn_secondary {
+border: 1px solid #d1d5db;
+padding: 12px 25px;
+border-radius: 20px;
+text-decoration: none;
+color: #374151;
+}
