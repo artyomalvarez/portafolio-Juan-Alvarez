@@ -1,4 +1,11 @@
 /*fondo de la pagina*/
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +16,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     height: 90px;
-    background-color: #111;
+    background-color: #ccc;
     color: #fff;
     padding: 0 1rem;
     display: flex;
@@ -57,30 +64,39 @@ gap:20px;
 .pets-btn{
 display: inline-flex;
 align-items: center;
+gap: 0.5rem;
 text-shadow: 2px 4px 4px rgba(96, 48, 133, 0.5);
 background-color: #B292FF;
 color: white;
-width: 70px;
-padding: 12px 5px;
+padding: 0.5rem 1rem;
 border-radius: 20px;
 text-decoration: none;
-margin-right: 10px;
-gap: 0.5rem;
-font-size: larger;
-
+font-size: 1rem;
 }
 
 .pets-btn svg {
-    width: 1.2rem;;          
+    width: 1.2rem;
 }
 
+
+.pets-btn:hover {
+    color: #6f52bc;
+
+}
+
+
+
+
+/*hero */
 
 .hero_container {
   display: flex; 
   justify-content: center; 
   align-items: center;  
    min-height: calc(100vh - 90px);       
-  gap: 5rem;                     
+  gap: 5rem;
+  
+                   
 
 }
 
@@ -126,7 +142,7 @@ p {
 
 .hero_buttons {
 display: flex;
-gap: 20px;
+gap: 0.5rem;
 justify-content: space-evenly;
 align-items: start;
 
@@ -134,45 +150,96 @@ align-items: start;
 .btn_primary {
 display: inline-flex;
 align-items: center;
-background-color: #9370D8; 
+background-color: #B292FF; 
 color: white;
-padding: 12px 25px;
+padding: 12px 20px;
 border-radius: 20px;
 text-decoration: none;
 gap: 0.5rem;
-
-
 }
 
 .btn_secondary {
 display: inline-flex; 
 align-items: center;  
 border: 1px solid #d1d5db;
-padding: 12px 25px;
+padding: 12px 20px;
 border-radius: 20px;
 text-decoration: none;
 color: #FFFFFF;
 gap: 0.5rem;
 }
 
-.btn_primary svg {
-    width: 1.2rem;
 
+
+.btn_primary svg{
+    width: 1.2rem;
+}
+
+.btn_primary:hover{
+    color: #6f52bc;
 }
 
 .btn_secondary svg {
-    width: 1.2rem;
+    width: 1.2rem; 
 }
-
 
 
 .about-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 1200px;
+    padding: 1rem 1rem;
+    background-color: #ccc;
+    
+
 
 }
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    background-color: #ccc;
+
+}
+
+.aboutme-badge{
+    color: #fff;
+    background-color: #a855f7;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer here */
 .main-footer{
 
@@ -183,8 +250,6 @@ gap: 0.5rem;
     padding: 40px 20px;
     gap: 40px
 }
-
-
 .contact_container{
     width: 100%;
     max-width: 500px;
@@ -220,6 +285,7 @@ gap: 0.5rem;
 }
 
 
+/* input area */
 
 .social-icons {
     display: flex;
