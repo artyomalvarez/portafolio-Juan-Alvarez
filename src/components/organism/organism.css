@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     border-radius: 50px;
     width: 90%;
-    padding: 0 2rem; /* Aumenté un poco el padding para que respire más */
+    padding: 0 2rem; 
 }
 
 .logo {
@@ -55,7 +55,7 @@ header {
 /* Grid de Skills */
 .skills-container {
     padding: 10px;
-    /* Esto asegura que los cuadros no queden pegados a la línea vertical */
+    
 }
 .skills-wrapper {
     display: grid; 

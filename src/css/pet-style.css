@@ -48,3 +48,38 @@ body{
 
 }
 
+article{
+    background-color: #ccc;
+    border: 1px solid  blue;
+    padding: 12px 20px;
+    width: 200px;
+    height: 200px;
+}
+span {
+    background-color: #fff;
+    color: black;
+}
+/* hero pets*/
+.hero-pets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 12rem;
+
+}
+.hero-pets-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    gap: 4rem;
+}
+.article-viserys {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}

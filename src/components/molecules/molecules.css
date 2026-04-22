@@ -1,4 +1,6 @@
 /* Molécula: Botón Pets */
+
+
 .pets-btn {
     display: inline-flex;
     align-items: center;
@@ -35,7 +37,7 @@
 .btn-primary svg, .btn-secondary svg { width: 1.2rem; }
 
 /* Iconos de Tech Skills */
-/* Contenedor de la rejilla */
+
 .skills-list-tecno {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -76,7 +78,7 @@
 
 /* Ajuste para que el icono no se salga del cuadro */
 .skills-list-tecno i {
-    font-size: 3.5rem !important; /* Forzamos el tamaño del icono */
+    font-size: 3.5rem !important; 
     display: block;
 }
 

@@ -1,7 +1,7 @@
 /* Elimina la barra inicial y la ruta completa, usa rutas relativas */
-@import url('./atoms/atoms.css');
-@import url('./molecules/molecules.css');
-@import url('./organism/organism.css');
+@import url('/src/components/molecules/molecules.css');
+@import url('/src/components/organism/organism.css');
+@import url('/src/components/atoms/atoms.css');
 
 * {
     padding: 0;
