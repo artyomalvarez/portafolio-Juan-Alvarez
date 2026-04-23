@@ -1,0 +1,26 @@
+/* Organismo: Header */
+header {
+    width: 100%;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(96, 48, 133, 0.5);
+    background-color: rgba(12, 12, 13, 0.8); 
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    width: 90%;
+    padding: 0 2rem; 
+}

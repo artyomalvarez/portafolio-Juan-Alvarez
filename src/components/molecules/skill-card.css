@@ -1,0 +1,28 @@
+/* Molécula: Cuadro de Skill Técnica */
+.skills-list-tecno li {
+    background-color: rgba(26, 26, 27, 0.8);
+    border: 2px solid var(--primary-purple);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.skills-list-tecno li:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent-purple);
+    background-color: var(--bg-input);
+    box-shadow: 0 10px 25px rgba(178, 146, 255, 0.3);
+}
+
+/* Item de Soft Skill */
+.soft-skills-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}

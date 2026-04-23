@@ -1,0 +1,13 @@
+.hero-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: calc(100vh - 90px); 
+    gap: 5rem;
+}
+
+.hero-img img {
+    width: 300px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    background-color: var(--primary-purple); padding: 0.2rem;
+}

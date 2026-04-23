@@ -1,0 +1,41 @@
+/* Átomo: Botón General */
+button[type="submit"] {
+    background-color: var(--accent-purple);
+    color: #111;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: auto;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px rgba(178, 146, 255, 0.6);
+    transform: translateY(-3px);
+}
+
+/* Átomo: Botón Pets (Copiado de Molecules para ser Atómico) */
+.pets-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--accent-purple);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pets-btn:hover {
+    background-color: var(--primary-purple);
+    transform: scale(1.05);
+}

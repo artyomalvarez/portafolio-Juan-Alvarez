@@ -1,0 +1,19 @@
+/* Molécula: Grupo de botones del Hero */
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-flex; 
+    align-items: center;
+    padding: 12px 25px; 
+    border-radius: 30px;
+    text-decoration: none; 
+    gap: 0.5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-primary { background-color: var(--primary-purple); color: white; }
+.btn-secondary { border: 1px solid #d1d5db; color: var(--text-white); }

@@ -1,0 +1,17 @@
+/* Organismo: Grid de Skills */
+.skills-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr auto 1.2fr;
+    gap: 40px; 
+    width: 100%; 
+    align-items: start;
+}
+
+.vertical-divider {
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, var(--primary-purple), transparent);
+    opacity: 0.8;
+    align-self: stretch; 
+}
+
+.section-divider { height: 1px; background: linear-gradient(to right, transparent, var(--primary-purple), transparent); border: none; margin: 40px 0; }

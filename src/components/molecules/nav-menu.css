@@ -1,0 +1,13 @@
+/* Molécula: Menú de navegación */
+.menu-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}

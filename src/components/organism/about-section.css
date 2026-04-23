@@ -1,0 +1,17 @@
+/* Organismo: Sección Sobre Mí */
+.about-container {
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
+    padding: 60px 40px;
+    background-color: var(--bg-dark); 
+    border: 2px solid var(--primary-purple);
+    border-radius: 20px; 
+    max-width: 1100px; 
+    margin: 80px auto;
+}
+
+.aboutme-badge {
+    display: inline-block; background-color: var(--primary-purple);
+    padding: 8px 20px; border-radius: 8px; margin-bottom: 20px;
+}

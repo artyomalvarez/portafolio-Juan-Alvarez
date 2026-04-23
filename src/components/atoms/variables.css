@@ -1,0 +1,15 @@
+:root {
+    --primary-purple: #603085;
+    --accent-purple: #B292FF;
+    --bg-dark: #111;
+    --bg-input: #1a1a1b;
+    --text-white: #FFFFFF;
+    --text-gray: #ccc;
+    --text-light-gray: #bbb;
+
+    /* Colores sección Pets */
+    --negro-profundo: #0c0c0d;
+    --batalla-oscuro: #1a1a1b;
+    --azul-glacial: #B292FF;
+    --acero-palido: #ccc;
+}
