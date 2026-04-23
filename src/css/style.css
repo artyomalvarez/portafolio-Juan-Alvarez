@@ -14,21 +14,72 @@ body {
     background-color: #1a1c1e /* Para asegurar que el texto se vea */
 }
 
+/* --- RESPONSIVE DESIGN --- */
 
+/* Tablet y Celulares Grandes (max-width: 992px) */
+@media (max-width: 992px) {
+    h1 { font-size: 2.8rem; }
+    .hero-container { gap: 2rem; }
+    .about-container { margin: 20px; padding: 25px; }
+}
+
+/* Celulares (max-width: 768px) */
 @media (max-width: 768px) {
+    /* Header / Navegación */
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        padding: 1.5rem;
+        gap: 15px;
+    }
+    .menu-list {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Hero Section */
+    .hero-container {
+        flex-direction: column-reverse; /* Imagen arriba, texto abajo */
+        text-align: center;
+        gap: 3rem;
+        padding: 40px 20px;
+    }
+    .hero-img img { width: 220px; }
+    .hero-buttons { justify-content: center; }
+
+    /* Seccion Skills (El grid de 3 columnas a 1) */
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .projects {
+        grid-template-columns: 1fr; /* En pantallas pequeñas, vuelve a 1 columna */
+    }
+    .vertical-divider { display: none; } /* Quitamos la línea vertical */
+
+    /* Contacto */
+    .contact-grid { flex-direction: column; }
+
+    /* Footer */
+    .follow-bar {
+        flex-direction: column;
+        gap: 15px;
+        border-radius: 20px;
+    }
+
+    /* Estilos de la sección Pets que ya tenías */
     .hero-pets-container {
-        /* Bajamos el minmax a 250px para que quepan mejor en pantallas pequeñas */
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 15px;
     }
-    
-    .card-body h1 {
-        font-size: 1.5rem; /* Ajustamos el tamaño del nombre si es necesario */
-    }
-
-    .card-image img {
-    width: 100%;
-    height: 250px; /* Altura fija para que todas las fotos se vean uniformes */
-    object-fit: cover; /* Evita que las fotos de los gatitos/perritos se estiren */
+    .card-body h1 { font-size: 1.5rem; }
+    .card-image img { height: 250px; }
 }
+
+/* Celulares Pequeños (max-width: 480px) */
+@media (max-width: 480px) {
+    h1 { font-size: 2.2rem; }
+    .logo img { width: 150px; }
+    .skills-list-tecno { grid-template-columns: repeat(2, 1fr); } /* 2 columnas para que no se vea tan pequeño */
 }
