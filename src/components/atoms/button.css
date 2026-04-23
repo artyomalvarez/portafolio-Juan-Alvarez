@@ -27,15 +27,22 @@ button[type="submit"]:hover {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: var(--accent-purple);
+    text-shadow: 2px 4px 4px rgba(96, 48, 133, 0.5);
+    background-color: var(--accent-purple); /* Usando la variable B292FF */
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     text-decoration: none;
+    font-size: 1rem;
     transition: all 0.3s ease;
+}
+
+.pets-btn svg {
+    width: 1.2rem;
 }
 
 .pets-btn:hover {
     background-color: var(--primary-purple);
+    color: #6f52bc;
     transform: scale(1.05);
 }

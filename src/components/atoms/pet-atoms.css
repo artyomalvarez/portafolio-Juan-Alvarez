@@ -1,14 +1,4 @@
 /* Dentro de src/components/atoms/pet-atoms.css */
-:root {
-    --batalla-oscuro: #404F54;
-    --bruma-fria: #5E6B6F;
-    --acero-palido: #8BA5AF;
-    --azul-glacial: #9EB1B9;
-    --negro-profundo: #0C0C0D;
-}
-
-
-
 
 .goback {
     text-decoration: none;

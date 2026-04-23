@@ -8,12 +8,12 @@
 .btn-primary, .btn-secondary {
     display: inline-flex; 
     align-items: center;
-    padding: 12px 25px; 
-    border-radius: 30px;
+    padding: 12px 20px; 
+    border-radius: 20px;
     text-decoration: none; 
     gap: 0.5rem;
-    font-weight: 600;
-    transition: 0.3s;
 }
 .btn-primary { background-color: var(--primary-purple); color: white; }
 .btn-secondary { border: 1px solid #d1d5db; color: var(--text-white); }
+
+.btn-primary svg, .btn-secondary svg { width: 1.2rem; }

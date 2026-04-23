@@ -24,3 +24,21 @@ header {
     width: 90%;
     padding: 0 2rem; 
 }
+
+.logo {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-white);
+    letter-spacing: -1px;
+}
+
+.menuburger {
+    display: none;
+}
+
+.cerrar-menu {
+    display: none;
+}

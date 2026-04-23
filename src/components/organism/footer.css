@@ -9,3 +9,19 @@
 }
 
 .copyright { color: #fff; font-size: 0.9rem; opacity: 0.8; }
+
+/* Estructura del Formulario dentro del Footer (Si se incluye) */
+.main-footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.main-footer label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+}

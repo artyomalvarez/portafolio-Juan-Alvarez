@@ -8,6 +8,28 @@ body {
 h1 { font-size: 3.5rem; margin: 10px 0; color: var(--text-white); }
 p { color: var(--text-white); }
 
+/* Átomo: Badge del Hero */
+.badge {
+    color: var(--primary-purple);
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Resalte de palabras clave en títulos */
+h1 span, h2 span, h3 span {
+    color: var(--accent-purple);
+    font-weight: bold;
+}
+
+.about-text p {
+    text-align: justify;
+    line-height: 1.8;
+    color: var(--text-gray);
+    font-size: 1.1rem;
+}
+
 .skill-text {
     color: white;
     font-size: 2.5rem;

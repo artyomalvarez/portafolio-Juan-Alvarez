@@ -11,7 +11,29 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1c1e /* Para asegurar que el texto se vea */
+    background-color: #1a1c1e; /* Se agregó el punto y coma faltante */
+}
+
+/* Estilos para iconos SVG (clase size-6) */
+/* Esta clase es común en frameworks como Tailwind CSS para definir tamaños. */
+/* Aquí la definimos para que tus SVGs en los botones tengan un tamaño consistente. */
+.size-6 {
+    width: 1.5rem; /* Equivalente a 24px si 1rem = 16px. Ajusta según tu base de rem. */
+    height: 1.5rem;
+}
+
+/* Estilos para iconos Devicon en la sección de Tech Skills */
+.skills-list-tecno li i {
+    font-size: 3rem; /* Tamaño de los iconos de tecnología para que sean visibles. */
+    /* Los colores de devicon suelen venir con la clase 'colored' que ya aplicas. */
+}
+
+/* Estilos para iconos Font Awesome en Soft Skills y Contacto */
+.soft-skills-list li i,
+.info-list li i {
+    font-size: 1.5rem; /* Tamaño de los iconos de soft skills y contacto. */
+    color: var(--accent-purple); /* Asignamos un color de tu paleta para que destaquen. */
+    margin-right: 10px; /* Añadimos un pequeño espacio entre el icono y el texto. */
 }
 
 /* --- RESPONSIVE DESIGN --- */
@@ -67,14 +89,6 @@ body {
         gap: 15px;
         border-radius: 20px;
     }
-
-    /* Estilos de la sección Pets que ya tenías */
-    .hero-pets-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 15px;
-    }
-    .card-body h1 { font-size: 1.5rem; }
-    .card-image img { height: 250px; }
 }
 
 /* Celulares Pequeños (max-width: 480px) */

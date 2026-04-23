@@ -1,7 +1,16 @@
 /* Molécula: Cuadro de Skill Técnica */
+.skills-list-tecno {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; /* Bajamos un poco el gap para que quepan bien los cuadros */
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
 .skills-list-tecno li {
-    background-color: rgba(26, 26, 27, 0.8);
-    border: 2px solid var(--primary-purple);
+    background-color: rgba(26, 26, 27, 0.8); /* Fondo oscuro semitransparente */
+    border: 2px solid var(--primary-purple); /* Borde morado sólido */
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -19,10 +28,27 @@
     box-shadow: 0 10px 25px rgba(178, 146, 255, 0.3);
 }
 
+/* Ajuste para que el icono no se salga del cuadro */
+.skills-list-tecno i {
+    font-size: 3.5rem !important; /* Forzamos el tamaño del icono */
+    display: block;
+}
+
 /* Item de Soft Skill */
+.soft-skills-list {
+    list-style: none;
+    padding: 0;
+}
+
 .soft-skills-list li {
     display: flex;
     align-items: flex-start;
     gap: 15px;
     margin-bottom: 25px;
+}
+
+.soft-skills-list i {
+    color: var(--primary-purple);
+    font-size: 1.5rem;
+    margin-top: 5px;
 }

@@ -1,3 +1,5 @@
+/* Variables Globales */
+@import url('../components/atoms/variables.css');
 /* 1. Átomos */
 @import url('../components/atoms/pet-atoms.css');
 /* 2. Moléculas */

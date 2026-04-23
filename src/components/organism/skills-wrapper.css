@@ -12,6 +12,14 @@
     background: linear-gradient(to bottom, transparent, var(--primary-purple), transparent);
     opacity: 0.8;
     align-self: stretch; 
+    margin: 0 20px; /* Esto le da espacio a los lados para que respire */
 }
 
-.section-divider { height: 1px; background: linear-gradient(to right, transparent, var(--primary-purple), transparent); border: none; margin: 40px 0; }
+.section-divider { 
+    width: 80%; /* Ajusta este % si la quieres más larga o corta */
+    height: 1px; 
+    background: linear-gradient(to right, transparent, var(--primary-purple), transparent); 
+    border: none; 
+    margin: 40px auto; /* El 'auto' la centra y el 40px le da aire arriba y abajo */
+    opacity: 0.6; /* Para que no sea un golpe de color tan fuerte */
+}

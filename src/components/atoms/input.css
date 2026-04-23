@@ -12,6 +12,7 @@ textarea {
     font-size: 1rem;
     outline: none; 
     transition: all 0.3s ease;
+    margin-top: 10px;
 }
 
 input:focus, textarea:focus { 

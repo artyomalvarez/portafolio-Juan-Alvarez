@@ -1,13 +1,19 @@
 /* Molécula: Menú de navegación */
 .menu-list {
     display: flex;
-    gap: 30px;
+    gap: 30px; /* Un poco más de espacio entre links de navegación */
     list-style: none;
     align-items: center;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.menu-list a {
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.menu-list a:hover {
+    color: var(--accent-purple);
 }
