@@ -1,3 +1,7 @@
+/* 
+    PET-STYLE.CSS
+    Gestión modular de estilos para el Marketplace de Mascotas.
+*/
 /* Variables Globales */
 @import url('../components/atoms/variables.css');
 /* 1. Átomos */
@@ -13,18 +17,15 @@
     box-sizing: border-box;
 }
 
-/* --- ESTILOS DEL MENÚ HAMBURGUESA (PETS) --- */
-
-/* Ocultar botones en escritorio */
+/* Configuración de navegación para pantallas de escritorio */
 @media (min-width: 769px) {
     .menuburger, .cerrar-menu {
         display: none;
     }
 }
 
-/* --- RESPONSIVE DESIGN PARA MASCOTAS --- */
+/* --- DISEÑO RESPONSIVO: TABLET --- */
 
-/* TASK 2: Media Query para Tablets (pantallas medianas) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .hero-pets-container {
         grid-template-columns: repeat(2, 1fr); /* Proyectos en 2 columnas */
@@ -36,7 +37,7 @@
     }
 }
 
-/* TASK 2: Media Query para Móviles (pantallas pequeñas) */
+/* --- DISEÑO RESPONSIVO: MOBILE --- */
 @media (max-width: 768px) {
     .menuburger {
         display: block;
@@ -89,7 +90,7 @@
         gap: 2rem;
         transition: right 0.4s ease;
         z-index: 1000;
-        border-left: 2px solid var(--azul-glacial); /* El "mordo" para que se vea */
+        border-left: 2px solid var(--azul-glacial); /* Borde estético lateral */
         box-shadow: -10px 0 20px rgba(0,0,0,0.7);
     }
 
